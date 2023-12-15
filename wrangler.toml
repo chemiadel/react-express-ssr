@@ -1,0 +1,6 @@
+name = "react-lazy-ssr-workers"
+main = 'src/worker/server.js'
+compatibility_date = "2022-06-04"
+
+[build]
+command = 'esbuild src/entry.server.tsx --bundle --outfile=src/worker/server.js --format=esm --minify' # build front end assets 
